@@ -12,7 +12,7 @@ Then, use a Linux terminal or Window's PuTTY or Bash Shell to access Synology ov
 Access using the `root` account which has the same password as `admin`.  
 Use this command to mount your folder:  
 ```bash
-mount --bind /volume1/MyMusicDirectory /volume1/music
+mount --bind /volume2/Pictures /volume1/photo
 ```
 However, once your NAS reboots, this mount will go away. To save it across reboots. Add the same command to this file `/etc/rc.local`.  
 Use Vim to modify this file, and add the line. 
