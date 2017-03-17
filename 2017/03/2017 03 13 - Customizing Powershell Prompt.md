@@ -1,6 +1,20 @@
 # Customizing PowerShell Prompt
 
-## Resources
+## Steps
+Install [posh-git](https://github.com/dahlbyk/posh-git) to add git support.  
+```powershell
+install-module posh-git
+```
+
+# Cmder PowerShell Prompt
+Two files participate in setting up the prompt in Cmder:  
+- `%cmder%\vendor\profile.ps1`  
+- `%cmder%\config\user-profile.ps1`  
+
+The second file doesn't actually overwrite the first file. They work together.  
+The profile.ps1 file sets up some hooks for the user-profile.ps1 file to use. These are: 
+
+# Resources
 [Ultimate PowerShell Prompt Customization and Git Setup Guide](https://hodgkins.io/ultimate-powershell-prompt-and-git-setup): this adds git, ssh, and sets up SSH keys
 
 ## Prompt
