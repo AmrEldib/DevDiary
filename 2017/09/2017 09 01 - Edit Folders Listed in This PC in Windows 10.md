@@ -1,3 +1,5 @@
+# Edit Folders Listed in This PC in Windows 10
+
 # Problem
 
 In Windows 10, Windows Explorer can start in _This PC_. However, there's a predetermined list of folders that always show up. It would be helpful to modify this list to list favorite folders.  
