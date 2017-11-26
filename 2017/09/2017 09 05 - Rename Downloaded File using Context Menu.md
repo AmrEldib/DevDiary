@@ -14,4 +14,12 @@ I want to be able to simply right-click on the downloaded file, and execute one 
 # Solution
 
 I can use [AdvancedRenamer](https://www.advancedrenamer.com/) to create a preset for each category of files.  
+This takes care of renaming the files.  
+
+## Adding shortcut to Windows Context Menu
+
+A quick solution is to use Windows SendTo menu.  
+Simply place a shortcut in the SendTo folder. You can reach that by going to `shell:sendto` or `%APPDATA%\Microsoft\Windows\SendTo`.  
+This is great because it involves no modification of the registry to add an entry to the Context Menu.  
+However, it can only pass a single file to the target script.  
 

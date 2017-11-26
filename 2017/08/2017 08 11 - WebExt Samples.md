@@ -28,12 +28,13 @@ _Notice that --keep-profile-changes saves changes in the profile across sessions
 
 To open the browser console on the browser startup, use:  
 ```web-ext run --browser-console```  
+Notice that the browser-console is different from the console in the developer tools which doesn't show messages from extensions.  
 
 You can also set the start URL:  
 ```web-ext run --start-url www.mozilla.com```  
 
 Sample command to start debugging in Developer edition and with console window open:  
-```web-ext run --firefox="C:\Program Files\Firefox Developer Edition\firefox.exe" --browser-console```  
+```web-ext run --firefox="C:\Program Files\Firefox Developer Edition\firefox.exe" --browser-console --start-url developer.mozilla.org```  
 
 Once you settle on how your optimum config for web-ext, store that command in a `debug.bat` file (or any other name or extension)  and run every time you want to start debugging.  
 

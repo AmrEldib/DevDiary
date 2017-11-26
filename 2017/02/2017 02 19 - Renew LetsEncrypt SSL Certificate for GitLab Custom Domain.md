@@ -41,6 +41,10 @@ To create a new certificate:
 - You should see that certificate and chain is generated and is saved at `/etc/letsencrypt/live/amreldib.com/fullchain.pem` and the expiry date.  
 - In the terminal, copy the newly modified files `fullchain.pem` and `privkey.pem` to the Downloads folder (for example) to easily copy their content to the browser.  
 - You'll use `sudo`.  
+    `sudo /etc/letsencrypt/live/amreldib.com/fullchain.pem ~/Downloads/fullchain.pem`  
+    `sudo /etc/letsencrypt/live/amreldib.com/privkey.pem ~/Downloads/privkey.pem`  
+- This just to make it easy to open the files in a visual editor.  
+- You can also just open the files in vim to copy their content.  
 - You might notice that the certificate is just appended to existing certificate.  
 - Browse to gitlab, and go to Pages > Domains section in the project's settings.  
 - Remove the existing domain (I know, it's weird).  
