@@ -7,6 +7,8 @@ The problem is that LetsEncrypt certificates only last for 3 months, so they req
 
 ## Solution 
 
+_Alternative solution:_ Consider using an automated method. [gitlab-letsencrypt](https://github.com/rolodato/gitlab-letsencrypt) or [jekyll-gitlab-letsencrypt](https://github.com/JustinAiken/jekyll-gitlab-letsencrypt)  
+
 To install a certificate for the first time, use this [guide from GitLab](https://about.gitlab.com/2016/04/11/tutorial-securing-your-gitlab-pages-with-tls-and-letsencrypt/).  
 More info about [LetsEncrypt certbot manual mode](https://certbot.eff.org/docs/using.html#manual). 
 
