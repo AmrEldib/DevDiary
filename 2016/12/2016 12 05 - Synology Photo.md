@@ -17,7 +17,13 @@ mount --bind /volume2/Pictures /volume1/photo
 However, once your NAS reboots, this mount will go away. To save it across reboots. Add the same command to this file `/etc/rc.local`.  
 Use Vim to modify this file, and add the line. 
 
+## Unmount
+To unmount, use  
+```bash
+umount /volume1/photo
+```
 
 # Sources
 [Change folders for Synology media server](http://www.king-foo.com/2010/06/change-folders-for-synology-media-server/)  
 [Synology forums - How to point Photo Station to existing folder](https://forum.synology.com/enu/viewtopic.php?t=58546)  
+[How to unmount after using mount --bind option?](https://askubuntu.com/questions/156667/how-to-unmount-after-using-mount-bind-option)  
